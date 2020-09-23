@@ -27,7 +27,7 @@ SECRET_KEY = '=jr_(s$3p^p4ir8)m4nie2js)shgd!2plc&7owytor$$h26k75'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['social-networkingapp.herokuapp.com']
 
 
 # Application definition
