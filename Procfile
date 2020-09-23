@@ -1,1 +1,1 @@
-web: gunicorn pydjblog.wsgi
+web: gunicorn SampleApp.wsgi
