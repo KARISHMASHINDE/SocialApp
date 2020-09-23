@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h4 >
+    <div class="m-4 pt-2 bg-white">Welcome to Latest Events.....!!!!</div>
+  </h4>
+  {% for p in posts  %}
+  <div class="card">
+        <br>
+        <h6 class="card-subtitle mb-2 text-muted">By {{p.author}} at {{p.date_posted}} <br/>
+        </h6>
+        <pre class="card-text">{{p.content}}</pre>
+      </div>
+  </div>
+  <br/>
+  {% endfor %}
+{% endblock content %}
